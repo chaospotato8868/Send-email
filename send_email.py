@@ -2,7 +2,7 @@ import os
 import smtplib
 import getpass
 
-EMAIL_ADDRESS = os.environ.get('test.chao8868@gmail.com') 
+EMAIL_ADDRESS = 'test.chao8868@gmail.com'
 EMAIL_PASSWORD = getpass.getpass()
 
 with smtplib.SMTP('smtp.gmail.com', 587) as smtp:
